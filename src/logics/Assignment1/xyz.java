@@ -1,9 +1,8 @@
-//frequency
 package logics.Assignment1;
 
 import java.util.LinkedHashMap;
 
-public class FrequencyOfElements {
+public class xyz {
     public static void main(String[] args) {
         String s = "vaishnavi";
         LinkedHashMap<Character,Integer> map=new LinkedHashMap<>();
