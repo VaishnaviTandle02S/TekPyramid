@@ -19,12 +19,12 @@ import java.util.Arrays;
 //}
 public class RightRotate2Element {
     public static void main(String[] args) {
-        int[] n ={1,2,3,4,5};
-        ArrayList list = new ArrayList();
-        for(int i : n){
-            list.add(i);
-            System.out.println(i);
-        }
+//        int[] n ={1,2,3,4,5};
+        ArrayList list = new ArrayList(Arrays.asList(1,2,3,4,5));
+//        for(int num : n){
+//            list.add(num);
+//            System.out.println(num);
+//        }
         for(int i = 0; i < 2; i++){
             Object last=list.get(list.size()-1); //fetching 0th index value from list
             list.remove(list.size()-1);

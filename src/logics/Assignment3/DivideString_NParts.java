@@ -27,7 +27,7 @@ public class DivideString_NParts {
         s = s.replaceAll(" ", "");
         int len = s.length(); //16
         System.out.println(len);
-        int div =7;
+        int div =3;
         int rem;
 //        if (len % div != 0) {
 //            System.out.println("String cannot divide and store");
