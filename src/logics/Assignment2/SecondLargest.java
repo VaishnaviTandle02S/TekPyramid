@@ -17,7 +17,6 @@ public class SecondLargest {
             if (arr[i] > secondlargest && arr[i] != largest) {
                 secondlargest = arr[i];
             }
-
         }
         System.out.println("secondlargest ->" + secondlargest);
     }

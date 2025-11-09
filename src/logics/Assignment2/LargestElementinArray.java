@@ -17,7 +17,9 @@ public class LargestElementinArray {
                 smallest = arr[i];
             }
         }
-        System.out.println("smallest -> " + smallest);
         System.out.println("largest -> " + largest);
+        System.out.println("smallest -> " + smallest);
     }
 }
+
+//--------------------------------*******************-----------------------------------------------------
